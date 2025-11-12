@@ -15,6 +15,7 @@ uint64[<=3] uint64_values
 string[<=3] string_values
 BasicTypes[<=3] basic_types_values
 Constants[<=3] constants_values
+Constants[<=3] constants_values_default [Constants::CONST_INT8_MAX, Constants::CONST_UINT8_MAX, Constants::CONST_STRING]
 Defaults[<=3] defaults_values
 bool[<=3] bool_values_default [false, true, false]
 byte[<=3] byte_values_default [0, 1, 255]
